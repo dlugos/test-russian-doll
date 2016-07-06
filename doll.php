@@ -11,6 +11,7 @@ $inputs = array();
 $inputs[] = [[5, 4], [6, 4], [6, 7], [2, 3]];
 $inputs[] = [[5, 4], [6, 4], [6, 7], [2, 3], [7, 8], [1, 7]];
 $inputs[] = [];
+$inputs[] = [[1,100],[2,200],[3,300],[4,400],[4,250],[5,300],[6,350]];
 
 
 foreach ($inputs as $input) {
@@ -28,7 +29,7 @@ foreach ($inputs as $input) {
 
 
 /**
- * O(n^2)
+ * O(n!)
  * @param array $dolls
  * @param array $solution
  * @return int
