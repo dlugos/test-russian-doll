@@ -28,7 +28,7 @@ foreach ($inputs as $input) {
 
 
 /**
- * O(n)
+ * O(n^2)
  * @param array $dolls
  * @param array $solution
  * @return int
